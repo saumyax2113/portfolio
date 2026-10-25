@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aryan Chaudhary | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">Aryan Chaudhary</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero / About Section -->
+  <header id="hero" class="hero-section">
+    <div class="container hero-content">
+      <div class="hero-image-wrapper">
+        <!-- Replace this URL with your own photo -->
+        <img src="1.jpeg" alt="Aryan Chaudhary" class="profile-img" />
+      </div>
+      <div class="hero-text" id="about">
+        <span class="badge">Web Developer & Designer</span>
+        <h1>Hi, I'm Aryan Chaudhary.</h1>
+        <p class="bio">
+          I'm a passionate front-end developer who loves crafting clean, user-friendly, and accessible web experiences. When I'm not coding, you can find me reading sci-fi, sketching UI concepts, or brewing coffee.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-card">
+          <span class="timeline-date">2025 – 2029</span>
+          <h3>B.tech in Computer Science</h3>
+          <p class="institution">Vivekananda Global University (NIAT)</p>
+          <p class="description">
+            Focused on software engineering, web development, data structures, and human-computer interaction.  
+          </p>
+        </div>
+        <div class="timeline-card">
+          <span class="timeline-date">2023</span>
+          <h3>Full-Stack Web Development Bootcamp</h3>
+          <p class="institution">CodeCamp Academy</p>
+          <p class="description">
+            Intensive 12-week program covering HTML5, CSS3, modern JavaScript (ES6+), REST APIs, and version control with Git.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3 / Flexbox / Grid</span>
+            <span class="tag">JavaScript (ES6+)</span>
+            <span class="tag">Responsive Web Design</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools & Workflow</h3>
+          <div class="skill-tags">
+            <span class="tag">Git & GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Chrome DevTools</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Collaboration</span>
+            <span class="tag">Attention to Detail</span>
+            <span class="tag">Adaptability</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-info">
+            <h3>Personal Task Manager</h3>
+            <p>
+              A clean task management dashboard allowing users to create, categorize, and track daily goals with local storage persistence.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <a href="#" class="project-link">View Project &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-info">
+            <h3>Weather Forecast App</h3>
+            <p>
+              A responsive weather application fetching real-time data from an open API, with dynamic background changes based on the forecast.
+            </p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>Fetch API</span>
+              <span>CSS Grid</span>
+            </div>
+            <a href="#" class="project-link">View Project &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-info">
+            <h3>Minimalist Recipe Finder</h3>
+            <p>
+              A recipe discovery website that lets users filter meals based on available ingredients and dietary restrictions.
+            </p>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS Modules</span>
+              <span>UI/UX</span>
+            </div>
+            <a href="#" class="project-link">View Project &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">
+        Have a question, an opportunity, or just want to say hi? Feel free to drop a message!
+      </p>
+
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        <p id="form-feedback" class="form-feedback"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Aryan Chaudhary. Built with HTML, CSS, and JS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
